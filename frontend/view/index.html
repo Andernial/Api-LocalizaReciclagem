@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="content">
+        <div class="middle-page">
+            <h1>Procure pontos de recliclagem !</h1>
+            <div class="middle-box">
+                <div class="itens-box">
+                    <label for="city">Nome da cidade</label>
+                    <input type="text" placeholder="Todos" id="city">
+                    <button class="btn" id="search">Procurar</button>
+                </div>
+
+                <div class="list" id="list">
+                    <p id="messageNotFound"> nada encontrado</p>
+                    <table>
+
+                    </table>
+                    <table id="locals">
+
+                    </table>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="./index.js" type="module"></script>
+    <script src="../controller/adress.controler.js" type="module"></script>
+</body>
+
+</html>
