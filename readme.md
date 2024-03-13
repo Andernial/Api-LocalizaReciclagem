@@ -81,13 +81,13 @@ POST /localhost:porta/city/add-location
 	"local": {
 		"id":"respectivo ao auto_increment",
 		"name":"Ecoponto",
-	    "public_place":"R. rua",
-	    "number": "123",
-	    "complement": "vazio",
-	    "neighborhood":"bairro",
-	    "city":"São Paulo",
-	    "state":"SP",
-	    "zip_code": "00",
+	   	 "public_place":"R. rua",
+	    	"number": "123",
+	   	 "complement": "vazio",
+	   	 "neighborhood":"bairro",
+	   	 "city":"São Paulo",
+	   	 "state":"SP",
+	   	 "zip_code": "00",
 		"updatedAt": "data",
 		"createdAt": "data"
 	}
