@@ -168,7 +168,7 @@ POST /localhost:porta/city/by-city?city=São Paulo
 ### Atualizando Local
 
 - **Endpoint**: `/localhost:porta/city/update-location/:id?`
-- **Método HTTP**: POST
+- **Método HTTP**: PUT
 - **Descrição**: Atualiza o local dentro do banco de dados de acordo com as querys passadas.
 
 #### Querys de Requisição
